@@ -602,6 +602,14 @@ body, html {
   .content{
     padding: 0px 30px;
   }
+  .nav-buttons select{
+    font-size: 0.5rem;
+    padding: 5px 8px; 
+  }
+  .sign-in {
+    font-size: 0.5rem;
+    padding: 7px 8px;
+  }
   .email-form{
     display: flex;
     align-items: center;
@@ -612,11 +620,12 @@ body, html {
     max-width: 350px;
   }
   .email-form button {
-    width: 100%;
     max-width: 170px;
     margin-top: 10px;
+    font-size: 0.8rem;
+    padding: 10px 20px;
   }
-  .logo{
+  .main-logo{
     height: 100px;
   }
   .movie-card {
@@ -667,4 +676,5 @@ body, html {
   }
   
 }
+
 
